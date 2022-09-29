@@ -1,0 +1,114 @@
+body {
+    color: white;
+    background-color: #000;
+    margin-left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    margin-top: 0;
+    height: 2px;
+    background-color: rgb(47, 51, 54);
+    border: none;
+}
+
+#text-field-search {
+    color: white;
+    background-color: darkgray;
+    padding: 0.5em;
+    width: 90%;
+}
+
+.wd-border-color-gray {
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-explore-settings {
+    font-size: 30px;
+    float: right;
+    margin-right: 12px;
+    text-decoration: none;
+    color: rgb(29, 161, 242);
+}
+
+.wd-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.wd-links li {
+    display: inline;
+    font-size: 15px;
+}
+
+.wd-link {
+    color: rgb(110, 118, 125);
+    padding: 16px;
+}
+
+.wd-link-selected {
+    color: rgb(29, 161, 242);
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: rgb(29, 161, 242);
+    padding: 16px 0 16px 0;
+}
+
+.wd-suggested-post-container {
+    margin-top: 15px;
+    height: 110px;
+}
+
+.wd-dots {
+    float: right;
+    color: rgb(110, 118, 125);
+    margin: 0 12px 0 0;
+}
+
+.wd-suggested-post-topic {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-suggested-post-title {
+    font-size: 20px;
+    color: white;
+}
+
+.wd-suggested-post-ntuits {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-suggested-post-author {
+    font-size: 13px;
+}
+
+.wd-suggested-post-logo {
+    font-family: Luminari;
+}
+
+.wd-suggested-post-time {
+    color: rgb(110, 118, 125);
+}
+
+.wd-suggested-post-relevance {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-suggested-post-image {
+    float: right;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 16px;
+}
