@@ -57,6 +57,7 @@ hr {
 .wd-links li {
     display: inline;
     font-size: 15px;
+    font-weight: bold;
 }
 
 .wd-links li:first-child {
@@ -100,20 +101,25 @@ hr {
 .wd-suggested-post-topic {
     font-size: 13px;
     color: rgb(110, 118, 125);
+    margin: 0;
 }
 
 .wd-suggested-post-title {
     font-size: 18px;
     color: white;
+    margin: 5px 0;
 }
 
 .wd-suggested-post-ntuits {
     font-size: 13px;
     color: rgb(110, 118, 125);
+    margin: 0;
 }
 
 .wd-suggested-post-author {
     font-size: 13px;
+    font-weight: bold;
+    margin: 0;
 }
 
 .wd-suggested-post-logo {
@@ -121,12 +127,14 @@ hr {
 }
 
 .wd-suggested-post-time {
+    font-weight: normal;
     color: rgb(110, 118, 125);
 }
 
 .wd-suggested-post-relevance {
     font-size: 13px;
     color: rgb(110, 118, 125);
+    margin: 0;
 }
 
 .wd-suggested-post-image {
