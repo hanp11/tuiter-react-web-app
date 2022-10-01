@@ -1,0 +1,138 @@
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.wd-header-container {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-page-title {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.wd-user-handle {
+    color: lightgray;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 3px;
+    margin-bottom: 12px;
+}
+
+.wd-ellipsis-blue {
+    text-decoration: none;
+    color: rgb(29, 161, 242);
+    margin-right: 12px;
+    font-weight: bold;
+    float: right;
+}
+
+.wd-post-container {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-avatar-img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.wd-post-content-container {
+    margin-left: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-author-name {
+    color: white;
+    font-size: 15px;
+    display: inline;
+}
+
+.wd-author-handle {
+    color: lightgray;
+    font-size: 15px;
+    font-weight: normal;
+    display: inline;
+}
+
+.wd-post-date {
+    color: lightgray;
+    font-size: 15px;
+    font-weight: normal;
+    display: inline;
+}
+
+.wd-post-content {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+}
+
+.wd-post-img {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    float: left;
+}
+
+.wd-post-img-text-container {
+    border-style: none solid solid solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 504px;
+    float: left;
+}
+
+.wd-post-img-text-container * {
+    margin: 0;
+}
+
+.wd-post-img-title {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.wd-post-img-text {
+    color: lightgray;
+    font-size: 15px;
+    padding: 0 12px 12px 12px;
+}
+
+.wd-icons-container {
+    margin-top: 12px;
+}
+
+.wd-icons-container a {
+    margin-right: 90px;
+}
+
+.wd-icons-container .wd-icon {
+    display: inline;
+    margin-right: 12px;
+}
+
+.wd-heart {
+    color: red;
+}
