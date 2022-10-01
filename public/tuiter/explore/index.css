@@ -1,38 +1,9 @@
-body {
-    color: white;
-    background-color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 16px;
-    border-style: none solid;
-    border-width: 1px;
-    border-color: rgb(47, 51, 54);
-}
-
-body > div {
-    margin-left: 16px;
-    padding: 8px 0;
-}
-
-hr {
-    margin-top: 0;
-    height: 1px;
-    background-color: rgb(47, 51, 54);
-    border: none;
-    margin-left: -16px;
-}
-
-#text-field-search {
+.wd-text-field-search {
     color: white;
     background-color: darkgray;
     padding: 0.5em;
     width: 90%;
-}
-
-.wd-border-color-gray {
-    border-color: rgb(47, 51, 54);
-}
-
-.wd-rounded-corners-all-around {
+    border: none;
     border-radius: 50px;
 }
 
@@ -56,25 +27,32 @@ hr {
 
 .wd-links li {
     display: inline;
-    font-size: 15px;
-    font-weight: bold;
 }
 
 .wd-links li:first-child {
     padding-left: 0px;
 }
 
-.wd-link {
+.wd-links a {
+    text-decoration: none;
     color: rgb(110, 118, 125);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-link {
     padding: 16px;
 }
 
 .wd-link-selected {
-    color: rgb(29, 161, 242);
     border-bottom-style: solid;
     border-bottom-width: 4px;
     border-bottom-color: rgb(29, 161, 242);
     padding: 16px 0;
+}
+
+.wd-link-selected a {
+    color: rgb(29, 161, 242);
 }
 
 .wd-divider {
@@ -84,18 +62,36 @@ hr {
     border-bottom-width: 1px;
     border-color: rgb(47, 51, 54);
     background-color: rgba(47, 51, 54, 50%);
-    margin-left: -16px;
 }
 
 .wd-suggested-post-container {
-    margin-top: 15px;
-    height: 110px;
+    padding-top: 15px;
+    min-height: 110px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(47, 51, 54);
 }
 
-.wd-dots {
+.wd-suggested-post-container-first {
+    padding-top: 0;
+}
+
+.wd-ellipsis-white-container {
+    text-align: right;
+}
+
+.wd-ellipsis-white {
+    text-decoration: none;
+    color: white;
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.wd-ellipsis {
+    text-decoration: none;
     float: right;
     color: rgb(110, 118, 125);
-    margin: 0 12px 0 0;
+    margin-right: 12px;
 }
 
 .wd-suggested-post-topic {
