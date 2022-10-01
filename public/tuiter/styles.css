@@ -1,0 +1,28 @@
+body {
+    color: white;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+body > div {
+    min-height: calc(100vh - 12px);
+    margin: 0 16px;
+    padding-top: 12px;
+    border-style: none solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+}
+
+body > div > div {
+    padding-left: 16px;
+}
+
+.wd-ellipsis {
+    text-decoration: none;
+    float: right;
+    color: rgb(110, 118, 125);
+    margin-right: 12px;
+    font-weight: bold;
+}
