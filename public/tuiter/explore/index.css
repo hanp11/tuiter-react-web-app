@@ -65,7 +65,7 @@
 }
 
 .wd-suggested-post-container {
-    padding-top: 15px;
+    padding-top: 12px;
     min-height: 110px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -85,13 +85,6 @@
     color: white;
     margin-right: 12px;
     font-weight: bold;
-}
-
-.wd-ellipsis {
-    text-decoration: none;
-    float: right;
-    color: rgb(110, 118, 125);
-    margin-right: 12px;
 }
 
 .wd-suggested-post-topic {
@@ -129,7 +122,7 @@
 
 .wd-suggested-post-relevance {
     font-size: 13px;
-    color: rgb(110, 118, 125);
+    color: lightgray;
     margin: 0;
 }
 
