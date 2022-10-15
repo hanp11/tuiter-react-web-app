@@ -1,7 +1,7 @@
 const NavigationSidebar = (active) => {
     return (`
         <div class="list-group">
-            <a class="list-group-item list-group-item-action" href="/">
+            <a class="list-group-item list-group-item-action ${active === "index" && "active"}" href="/">
                 <i class="fab fa-twitter"></i>
             </a>
             <a class="list-group-item list-group-item-action ${active === "home" && "active"}" href="../HomeScreen/index.html">
