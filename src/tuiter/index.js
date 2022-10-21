@@ -13,7 +13,7 @@ function Tuiter() {
              style={{"position": "relative"}}>
           <ExploreComponent/>
         </div>
-        <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+        <div className="d-none d-lg-block col-lg-4 col-xl-4">
           <WhoToFollowList/>
         </div>
       </div>
