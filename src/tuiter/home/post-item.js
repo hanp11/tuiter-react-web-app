@@ -11,7 +11,7 @@ const PostItem = ({post}) => {
       <div className="row">
         {post.userRetweet &&
           <div className="ps-5 fw-bolder text-secondary">
-            <i className="bi bi-arrow-90deg-right pe-1"></i>
+            <i class="bi bi-arrow-repeat pe-1"></i>
             {`${post.userRetweet} Retweeted`}
           </div>
         }
@@ -38,15 +38,15 @@ const PostItem = ({post}) => {
               }
             </span>
           </div>
-          {post.image && <img className="rounded mb-2" src={`/images/${post.image}`} width="100%"/>}
+          {post.image && <img className="rounded" src={`/images/${post.image}`} width="100%"/>}
           {post.referencePostId && <RefPost key = {refPost._id} post = {refPost}/>}
-          <div className="text-secondary d-flex justify-content-between">
+          <div className="text-secondary d-flex justify-content-between mt-2 mb-2">
             <span>
               <i className="bi bi-chat pe-1"></i>
               {post.numComments}
             </span>
               <span>
-              <i className="bi bi-arrow-90deg-right pe-1"></i>
+              <i class="bi bi-arrow-repeat pe-1"></i>
                 {post.numRetweet}
             </span>
               <span>
