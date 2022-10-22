@@ -1,0 +1,12 @@
+[
+  {
+    "_id": 345,
+    "userImage": "spacex.jpg",
+    "userName": "SpaceX",
+    "handle": "SpaceX",
+    "time": "16h",
+    "message": "Starlink for RVs now has over 100,000 customers! Access high-speed, low-latency internet on an as-needed basis anywhere Starlink provides active coverage",
+    "messageLink": "starlink.com/rv",
+    "showThread": false
+  }
+]

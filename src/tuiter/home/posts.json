@@ -1,0 +1,34 @@
+[
+  {
+    "_id": 123,
+    "userImage": "spacex.jpg",
+    "userName": "SpaceX",
+    "handle": "SpaceX",
+    "time": "23h",
+    "userRetweet": "Elon Musk",
+    "message": "Dennis and Akiko Tito are the first two crewmembers on Starship's second commercial spaceflight around the Moon",
+    "messageLink": "spacex.com/updates",
+    "image": "dennis-akiko-tito-spacex.jpg",
+    "numComments": "595",
+    "numRetweet": "1,168",
+    "numLike": "11.1K",
+    "showThread": true,
+    "referencePostId": ""
+  },
+  {
+    "_id": 234,
+    "userImage": "space-x-starship.jpg",
+    "userName": "Elon Musk",
+    "handle": "elonmusk",
+    "time": "15h",
+    "userRetweet": "",
+    "message": "We might need a different name, as this is basically just Starlink with roaming capability, so you can take your terminal anywhere.",
+    "messageLink": "",
+    "image": "",
+    "numComments": "5,346",
+    "numRetweet": "1,601",
+    "numLike": "19.2K",
+    "showThread": false,
+    "referencePostId": 345
+  }
+]
