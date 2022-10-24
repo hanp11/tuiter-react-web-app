@@ -23,7 +23,7 @@ const NavigationSidebar = () => {
           <span className="d-none d-xl-inline">Explore</span>
         </Link>
         <Link to="/" className="list-group-item">
-          <i className="bi bi-journal pe-1"></i>
+          <i className="bi bi-asterisk pe-1"></i>
           <span className="d-none d-xl-inline">Labs</span>
         </Link>
         <a className={`list-group-item ${active === 'notifications' && 'active'}`}>
