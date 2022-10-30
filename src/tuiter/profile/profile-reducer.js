@@ -11,14 +11,25 @@ const currentProfile = {
   location: 'Boston, MA',
   dateOfBirth: '10/31/2022',
   dateJoined: '10/2022',
-  followingCount: 1,
-  followersCount: 1,
-  tuits: '1,234'
+  followingCount: 340,
+  followersCount: 223,
+  tuits: '6,114'
 };
 
 const profileSlice = createSlice({
   name: 'profile',
-  initialState: currentProfile
+  initialState: currentProfile,
+  reducers: {
+    editProfile(state, action) {
+      state.firstName = action.payload.firstName;
+      state.lastName = action.payload.lastName;
+      state.bio = action.payload.bio;
+      state.location = action.payload.location;
+      state.website = action.payload.website;
+      state.dateOfBirth = action.payload.dateOfBirth;
+    }
+  }
 });
 
+export const {editProfile} = profileSlice.actions;
 export default profileSlice.reducer;

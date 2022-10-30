@@ -42,7 +42,8 @@ const NavigationSidebar = () => {
           <i className="bi bi-list-ul pe-1"></i>
           <span className="d-none d-xl-inline">Lists</span>
         </a>
-        <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile' && 'active'}`}>
+        <Link to="/tuiter/profile" className={`list-group-item ${(active === 'profile' || active === 'edit-profile')
+                                                                && 'active'}`}>
           <i className="bi bi-person-fill pe-1"></i>
           <span className="d-none d-xl-inline">Profile</span>
         </Link>
