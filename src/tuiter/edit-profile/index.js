@@ -19,7 +19,7 @@ const EditProfile = () => {
     const nameSplit = name.split(" ");
     const newProfile = {
       firstName: nameSplit[0],
-      lastName: nameSplit.length != 1 ? nameSplit[nameSplit.length - 1] : "",
+      lastName: nameSplit.length !== 1 ? nameSplit[nameSplit.length - 1] : "",
       bio: profileBio,
       location: profileLocation,
       website: profileWebsite,

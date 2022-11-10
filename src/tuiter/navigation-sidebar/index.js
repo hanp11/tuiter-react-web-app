@@ -18,10 +18,10 @@ const NavigationSidebar = () => {
           <i className="bi bi-house-door-fill pe-1"></i>
           <span className="d-none d-xl-inline">Home</span>
         </Link>
-        <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore' && 'active'}`}>
+        <a className={`list-group-item ${active === 'explore' && 'active'}`}>
           <i className="bi bi-hash pe-1"></i>
           <span className="d-none d-xl-inline">Explore</span>
-        </Link>
+        </a>
         <Link to="/" className="list-group-item">
           <i className="bi bi-asterisk pe-1"></i>
           <span className="d-none d-xl-inline">Labs</span>
